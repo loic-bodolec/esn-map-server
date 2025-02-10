@@ -2,6 +2,8 @@
 
 Cette API permet de gérer les consultants, regroupés par client, dans une application de cartographie. Elle fournit des fonctionnalités pour créer, lire, mettre à jour et supprimer des consultants et/ou clients accessibles pour des utilisateurs connectés (avec rôles : utilisateur simple ou administrateur).
 
+
+
 ## Installation
 
 - Clonez ce dépôt.
@@ -40,3 +42,7 @@ Pour tester l'API après s'ếtre connecté (via Postman, Insomnia, ThunderClien
 ![Connexion API](/readme-images/login.png)
 
 ![Token dans le header](/readme-images/getClient.png)
+
+## Frontend Repository
+
+Le dépôt du frontend est disponible à l'adresse suivante : [esn-map-client](https://github.com/loic-bodolec/esn-map-client)
