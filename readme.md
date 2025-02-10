@@ -2,8 +2,6 @@
 
 Cette API permet de gérer les consultants, regroupés par client, dans une application de cartographie. Elle fournit des fonctionnalités pour créer, lire, mettre à jour et supprimer des consultants et/ou clients accessibles pour des utilisateurs connectés (avec rôles : utilisateur simple ou administrateur).
 
-
-
 ## Installation
 
 - Clonez ce dépôt.
