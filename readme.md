@@ -40,3 +40,7 @@ Pour tester l'API après s'ếtre connecté (via Postman, Insomnia, ThunderClien
 ![Connexion API](/readme-images/login.png)
 
 ![Token dans le header](/readme-images/getClient.png)
+
+## Frontend Repository
+
+Le dépôt du frontend est disponible à l'adresse suivante : [esn-map-client](https://github.com/loic-bodolec/esn-map-client)
