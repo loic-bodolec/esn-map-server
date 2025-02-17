@@ -1,46 +1,44 @@
-# API de gestion des consultants regroupés par client d'une ESN
+# Consultant Management API Grouped by Client for an IT Services Company (ESN)
 
-Cette API permet de gérer les consultants, regroupés par client, dans une application de cartographie. Elle fournit des fonctionnalités pour créer, lire, mettre à jour et supprimer des consultants et/ou clients accessibles pour des utilisateurs connectés (avec rôles : utilisateur simple ou administrateur).
+This API allows managing consultants, grouped by client, within a mapping application. It provides functionalities to create, read, update and delete consultants and/or clients, accessible to authenticated users (with roles: regular user or administrator).
 
 ## Installation
 
-- Clonez ce dépôt.
-- Configurez votre fichier .env en le complétant avec les infos du fichier .env.example (dont les identifiants du 1er utilisateur "admin" créé par défaut)
-- Exécutez npm install pour installer les dépendances.
-- Exécutez npm run start:dev pour démarrer le serveur.
+- Clone this repository.
+- Configure your `.env` file by filling in the details from `.env.example` (including the credentials for the first default "admin" user).
+- Run `npm install` to install dependencies.
+- Run `npm run start:dev` to start the server.
 
 ## Tests
 
-Exécutez npm test pour exécuter les tests unitaires.
+Run `npm test` to execute unit tests.
 
-## Migration (BDD)
+## Database Migration
 
-Après avoir créé votre base de données (vide) sur postgreSQL, exécutez :
+After creating an empty database in PostgreSQL, run:
 
-- npm run migration:create-dev
+- `npm run migration:create-dev`
+- `npm run migration:generate-dev`
+- `npm run migration:run-dev`
 
-- npm run migration:generate-dev
-
-- npm run migration:run-dev
-
-### MPD
+### Database Schema Diagram (MPD)
 
 ![MPD](/readme-images/mpd-bdd-20250130.png)
 
-## Documentation de l'API (Swagger)
+## API Documentation (Swagger)
 
-Exécutez npm run start:dev pour démarrer le serveur.
+Run `npm run start:dev` to start the server.
 
-=> lien de la documentation : <http://localhost:5000/api-docs/>
+=> API documentation link: <http://localhost:5000/api-docs/>
 
-## Infos pratiques
+## Practical Information
 
-Pour tester l'API après s'ếtre connecté (via Postman, Insomnia, ThunderClient ou autre...), il faut récupérer le token et le mettre dans le Header :
+To test the API after logging in (via Postman, Insomnia, ThunderClient, or other tools), retrieve the token and include it in the Header:
 
-![Connexion API](/readme-images/login.png)
+![API Login](/readme-images/login.png)
 
-![Token dans le header](/readme-images/getClient.png)
+![Token in Header](/readme-images/getClient.png)
 
 ## Frontend Repository
 
-Le dépôt du frontend est disponible à l'adresse suivante : [esn-map-client](https://github.com/loic-bodolec/esn-map-client)
+The frontend repository is available at: [esn-map-client](https://github.com/loic-bodolec/esn-map-client)
