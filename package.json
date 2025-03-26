@@ -10,7 +10,7 @@
     "test:watch": "npm run test -- --watchAll",
     "test:ci": "npm run test -- --clearCache --ci --watchAll=false",
     "start:dev": "nodemon",
-    "start": "npm run build && node build/index.js",
+    "start": "npm run build && node build/src/index.js",
     "build": "rimraf ./build && tsc",
     "security:audit": "npm audit && snyk test",
     "security-gates": "ts-node scripts/security-gates.ts",
